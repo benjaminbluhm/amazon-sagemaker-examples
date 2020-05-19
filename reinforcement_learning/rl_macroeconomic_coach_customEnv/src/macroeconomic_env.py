@@ -10,7 +10,7 @@ from scipy.stats import norm
 class MacroeconomicEnv(gym.Env):
     """
     An environment for optimal consumption/savings policy in a macroeconomic life-cycle model.
-    Based on [Bluhm 2020](...)
+    Based on [Bluhm and Cutura 2020](...)
     """
 
     def __init__(self, **config):
